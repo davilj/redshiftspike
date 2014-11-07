@@ -1,0 +1,199 @@
+[ {
+  "id" : "ChUKBnB1cHBldBILQ0xPTkUtQUE1MjMSQFai9W2u72KWGnEHWOlgzfyhHBc9Lt-ijr14ktlhw0-w3VPvzlwb441tndA8DeGxrxwSdC7-gc49LUMcMpgHHrc",
+  "model" : {
+    "seqField" : "seqField",
+    "orderField" : 0,
+    "code1" : [ {
+      "codeDefinition" : {
+        "identifier" : {
+          "code" : "NR",
+          "codingSystem" : "ORION"
+        },
+        "description" : "Neurology",
+        "shortDescription" : "Neuro",
+        "orderIndex" : 0,
+        "deleted" : false,
+        "freeText" : false
+      },
+      "suppliedDescription" : "Cukes NR description"
+    } ],
+    "code2" : [ {
+      "codeDefinition" : {
+        "identifier" : {
+          "code" : "HAEM",
+          "codingSystem" : "ORION"
+        },
+        "description" : "Haem. Anticoagulant Outpatient",
+        "shortDescription" : "Coag OP",
+        "orderIndex" : 0,
+        "deleted" : false,
+        "freeText" : false
+      },
+      "suppliedDescription" : "Cukes HAEM description"
+    } ],
+    "providerField1" : {
+      "identifier" : {
+        "id" : "pid1",
+        "namespace" : "testWorld"
+      },
+      "name" : {
+        "nameType" : "Display Name",
+        "prefix" : "Prefix",
+        "givenName" : "pid1'sGivenName",
+        "middleNames" : "pid1'sMiddleNames",
+        "familyName" : "pid1'sFamilyName",
+        "fullName" : "",
+        "suffix" : "Suffix",
+        "title" : "Title",
+        "preferred" : true
+      },
+      "role" : {
+        "identifier" : {
+          "code" : "PCP",
+          "codingSystem" : "ORION"
+        },
+        "description" : "Primary Care Provider",
+        "shortDescription" : "Primary Care Provider",
+        "orderIndex" : 1,
+        "deleted" : false,
+        "freeText" : false
+      },
+      "specialties" : [ {
+        "identifier" : {
+          "code" : "END",
+          "codingSystem" : "ORION"
+        },
+        "description" : "Endocrinology",
+        "shortDescription" : "Endo",
+        "orderIndex" : 0,
+        "deleted" : false,
+        "freeText" : false
+      }, {
+        "identifier" : {
+          "code" : "two",
+          "codingSystem" : "123"
+        },
+        "description" : "string",
+        "shortDescription" : null,
+        "orderIndex" : 9,
+        "deleted" : false,
+        "freeText" : false
+      } ],
+      "addresses" : [ {
+        "streetAddressLine1" : "pid1@testWorld's home",
+        "streetAddressLine2" : "",
+        "city" : "Dnalkcua",
+        "country" : "ZN",
+        "stateOrProvince" : "Alpha",
+        "postcode" : "0001",
+        "addressType" : "string",
+        "suburb" : "Hop",
+        "preferred" : false
+      } ],
+      "telecoms" : [ {
+        "telecomType" : "teleType",
+        "telecom" : "152-5553",
+        "preferred" : false
+      } ]
+    },
+    "providerField2" : [ {
+      "identifier" : {
+        "id" : "pid2",
+        "namespace" : "testWorld"
+      },
+      "name" : {
+        "nameType" : "Display Name",
+        "prefix" : "Prefix",
+        "givenName" : "pid2'sGivenName",
+        "middleNames" : "pid2'sMiddleNames",
+        "familyName" : "pid2'sFamilyName",
+        "fullName" : "",
+        "suffix" : "Suffix",
+        "title" : "Title",
+        "preferred" : true
+      },
+      "role" : {
+        "identifier" : {
+          "code" : "PCP",
+          "codingSystem" : "ORION"
+        },
+        "description" : "Primary Care Provider",
+        "shortDescription" : "Primary Care Provider",
+        "orderIndex" : 1,
+        "deleted" : false,
+        "freeText" : false
+      },
+      "specialties" : [ {
+        "identifier" : {
+          "code" : "END",
+          "codingSystem" : "ORION"
+        },
+        "description" : "Endocrinology",
+        "shortDescription" : "Endo",
+        "orderIndex" : 0,
+        "deleted" : false,
+        "freeText" : false
+      }, {
+        "identifier" : {
+          "code" : "two",
+          "codingSystem" : "123"
+        },
+        "description" : "string",
+        "shortDescription" : null,
+        "orderIndex" : 9,
+        "deleted" : false,
+        "freeText" : false
+      } ],
+      "addresses" : [ {
+        "streetAddressLine1" : "pid2@testWorld's home",
+        "streetAddressLine2" : "",
+        "city" : "Dnalkcua",
+        "country" : "ZN",
+        "stateOrProvince" : "Alpha",
+        "postcode" : "0001",
+        "addressType" : "string",
+        "suburb" : "Hop",
+        "preferred" : false
+      } ],
+      "telecoms" : [ {
+        "telecomType" : "teleType",
+        "telecom" : "152-5553",
+        "preferred" : false
+      } ]
+    } ],
+    "ndcRxNormField" : {
+      "resolvingIdentifier" : {
+        "code" : "6586245671",
+        "codingSystem" : "2.16.840.1.113883.6.69"
+      },
+      "conceptCode" : "65862-456-71",
+      "conceptCodeCodingSystem" : "2.16.840.1.113883.6.69",
+      "deaScheduleNumber" : "4",
+      "formDescription" : "Extended Release Tablet",
+      "genericNameOfDrug" : "Alprazolam",
+      "match" : true,
+      "medication" : true,
+      "pharmaceuticalClassDescription" : "BENZODIAZEPINE DERIVATIVE SEDATIVES/HYPNOTICS",
+      "rxNormCode" : null,
+      "rxNormDescription" : null,
+      "generic" : "GENERIC"
+    },
+    "hcpcsNormField" : {
+      "resolvingIdentifier" : {
+        "code" : "J0135",
+        "codingSystem" : "2.16.840.1.113883.6.285"
+      },
+      "conceptCode" : "J0135",
+      "conceptCodeCodingSystem" : "2.16.840.1.113883.6.285",
+      "deaScheduleNumber" : "0",
+      "formDescription" : "Prefilled Syringe",
+      "genericNameOfDrug" : "ADALIMUMAB INJ,SOLN",
+      "match" : true,
+      "medication" : true,
+      "pharmaceuticalClassDescription" : "ANTIRHEUMATICS,OTHER",
+      "rxNormCode" : null,
+      "rxNormDescription" : null,
+      "generic" : "UNKNOWN"
+    }
+  }
+} ]

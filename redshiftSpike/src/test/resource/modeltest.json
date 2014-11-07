@@ -1,0 +1,98 @@
+"id" : "ChUKBnB1cHBldBILQ0xPTkUtQUE1MjMSQFai9W2u72KWGnEHWOlgzfyhHBc9Lt-ijr14ktlhw0-w3VPvzlwb441tndA8DeGxrxwSdC7-gc49LUMcMpgHHrc",
+"model.code1.codeDefinition.identifier.code" : "NR",
+"model.code1.codeDefinition.identifiercodingSystem" : "ORION"
+"model.code1.codeDefinition.description" : "Neurology",
+"model.code1.codeDefinition.description.shortDescription" : "Neuro",
+"model.code1.codeDefinition.description.orderIndex" : 0,
+"model.code1.codeDefinition.description.deleted" : false,
+"model.code1.codeDefinition.description.freeText" : false
+"model.code1.suppliedDescription" : "Cukes NR description"
+
+"model.code2.codeDefinition.identifier.code" : "HAEM",
+"model.code2.codeDefinition.identifier.codingSystem" : "ORION"
+"model.code2.codeDefinition.description" : "Haem. Anticoagulant Outpatient",
+"model.code2.codeDefinition.shortDescription" : "Coag OP",
+"model.code2.codeDefinition.orderIndex" : 0,
+"model.code2.codeDefinition.deleted" : false,
+"model.code2.codeDefinition.freeText" : false
+"model.code2.suppliedDescription" : "Cukes HAEM description"
+
+"model.providerField1.identifier.id" : "pid1",
+"model.providerField1.identifier.namespace" : "testWorld"
+
+"model.providerField1.name.nameType" : "Display Name",
+"model.providerField1.name.prefix" : "Prefix",
+"model.providerField1.name.givenName" : "pid1'sGivenName",
+"model.providerField1.name.middleNames" : "pid1'sMiddleNames",
+"model.providerField1.name.familyName" : "pid1'sFamilyName",
+"model.providerField1.name.fullName" : "",
+"model.providerField1.name.suffix" : "Suffix",
+"model.providerField1.name.title" : "Title",
+"model.providerField1.name.preferred" : true
+
+"model.providerField1.role.identifier.code" : "PCP",
+"model.providerField1.role.identifier.codingSystem" : "ORION"
+"model.providerField1.role.description" : "Primary Care Provider",
+"model.providerField1.role.shortDescription" : "Primary Care Provider",
+"model.providerField1.role.orderIndex" : 1,
+"model.providerField1.role.deleted" : false,
+"model.providerField1.role.freeText" : false
+
+"model.providerField1.specialties.identifier.code" : "END",
+"model.providerField1.specialties.identifier.codingSystem" : "ORION"
+
+"model.providerField1.specialties.description" : "Endocrinology",
+"model.providerField1.specialties.shortDescription" : "Endo",
+"model.providerField1.specialties.orderIndex" : 0,
+"model.providerField1.specialties.deleted" : false,
+"model.providerField1.specialties.freeText" : false
+"model.providerField1.specialties.identifier.code" : "two",
+"model.providerField1.specialties.identifier.codingSystem" : "123"
+"model.providerField1.specialties.description" : "string",
+"model.providerField1.specialties.shortDescription" : null,
+"model.providerField1.specialties.orderIndex" : 9,
+"model.providerField1.specialties.deleted" : false,
+"model.providerField1.specialties.freeText" : false
+
+"model.providerField1.addresses.streetAddressLine1" : "pid1@testWorld's home",
+"model.providerField1.addresses.streetAddressLine2" : "",
+"model.providerField1.addresses.city" : "Dnalkcua",
+"model.providerField1.addresses.country" : "ZN",
+"model.providerField1.addresses.stateOrProvince" : "Alpha",
+"model.providerField1.addresses.postcode" : "0001",
+"model.providerField1.addresses.addressType" : "string",
+"model.providerField1.addresses.suburb" : "Hop",
+"model.providerField1.addresses.preferred" : false
+
+"model.providerField1.telecoms.telecomType" : "teleType",
+"model.providerField1.telecoms.telecom" : "152-5553",
+"model.providerField1.telecoms.preferred" : false
+
+"model.ndcRxNormField.model.ndcRxNormField.code" : "6586245671",
+"model.ndcRxNormField.model.ndcRxNormField.codingSystem" : "2.16.840.1.113883.6.69"
+
+"model.ndcRxNormField.conceptCode" : "65862-456-71",
+"model.ndcRxNormField.conceptCodeCodingSystem" : "2.16.840.1.113883.6.69",
+"model.ndcRxNormField.deaScheduleNumber" : "4",
+"model.ndcRxNormField.formDescription" : "Extended Release Tablet",
+"model.ndcRxNormField.genericNameOfDrug" : "Alprazolam",
+"model.ndcRxNormField.match" : true,
+"model.ndcRxNormField.medication" : true,
+"model.ndcRxNormField.pharmaceuticalClassDescription" : "BENZODIAZEPINE DERIVATIVE SEDATIVES/HYPNOTICS",
+"model.ndcRxNormField.rxNormCode" : null,
+"model.ndcRxNormField.rxNormDescription" : null,
+"model.ndcRxNormField.generic" : "GENERIC"
+"model.hcpcsNormField.resolvingIdentifier.code" : "J0135",
+"model.hcpcsNormField.resolvingIdentifier.codingSystem" : "2.16.840.1.113883.6.285"
+"model.hcpcsNormField.conceptCode" : "J0135",
+"model.hcpcsNormField.conceptCodeCodingSystem" : "2.16.840.1.113883.6.285",
+"model.hcpcsNormField.deaScheduleNumber" : "0",
+"model.hcpcsNormField.formDescription" : "Prefilled Syringe",
+"model.hcpcsNormField.genericNameOfDrug" : "ADALIMUMAB INJ,SOLN",
+"model.hcpcsNormField.match" : true,
+"model.hcpcsNormField.medication" : true,
+"model.hcpcsNormField.pharmaceuticalClassDescription" : "ANTIRHEUMATICS,OTHER",
+"model.hcpcsNormField.rxNormCode" : null,
+"model.hcpcsNormField.rxNormDescription" : null,
+"model.hcpcsNormField.generic" : "UNKNOWN"
+
