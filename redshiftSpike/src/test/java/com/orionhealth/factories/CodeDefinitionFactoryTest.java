@@ -8,7 +8,7 @@
  * the publisher. Infringers of copyright render themselves liable for
  * prosecution.
  */
-package com.orionhealth.generate;
+package com.orionhealth.factories;
 
 import org.junit.Assert;
 import org.junit.Test;
