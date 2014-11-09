@@ -13,6 +13,9 @@ package com.orionhealth.generate;
 import org.junit.Assert;
 import org.junit.Test;
 
+import com.orionhealth.factories.CodeDefinitionFactory;
+import com.orionhealth.model.CodeDefinition;
+
 import junit.framework.TestCase;
 
 public class CodeDefinitionFactoryTest extends TestCase {

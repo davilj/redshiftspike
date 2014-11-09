@@ -8,10 +8,12 @@
  * the publisher. Infringers of copyright render themselves liable for
  * prosecution.
  */
-package com.orionhealth.generate;
+package com.orionhealth.factories;
 
 import java.util.HashMap;
 import java.util.Map;
+
+import com.orionhealth.model.CodeDefinition;
 
 public class CodeDefinitionFactory {
 	static String[] medArr = { "Anatomy",

@@ -1,4 +1,4 @@
-package com.orionhealth.generate;
+package com.orionhealth.model;
 
 public class CodeDefinition {
 	private int primaryKey;
