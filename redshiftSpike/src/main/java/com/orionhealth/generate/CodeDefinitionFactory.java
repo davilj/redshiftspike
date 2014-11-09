@@ -10,6 +10,9 @@
  */
 package com.orionhealth.generate;
 
+import java.util.HashMap;
+import java.util.Map;
+
 public class CodeDefinitionFactory {
 	static String[] medArr = { "Anatomy",
 			"Biochemistry", "Biomechanics", "Biostatistics", "Biophysics",
@@ -57,10 +60,24 @@ public class CodeDefinitionFactory {
 	static {
 		lenOfArr = medShortArr.length;
 	}
+	
+	static Map<Integer, CodeDefinition> mapId2CodeDefinition = new HashMap<Integer, CodeDefinition>();
 
-	public String buildRow() {
-		final int index = (int) (Math.random() * lenOfArr);
-		return buildRowWithIndex(index);
+	public CodeDefinition buildRow() {
+		final Integer index = Integer.valueOf((int) (Math.random() * lenOfArr));
+		CodeDefinition codeDefinition = mapId2CodeDefinition.get(index);
+		if (codeDefinition!=null) {
+			return codeDefinition;
+		}
+		
+		synchronized (this) {
+				CodeDefinition codeDefinitionCheck = mapId2CodeDefinition.get(index);
+				if (codeDefinitionCheck==null) {
+					codeDefinitionCheck = new CodeDefinition(index, buildRowWithIndex(index));
+					mapId2CodeDefinition.put(index, codeDefinitionCheck);
+				} 
+				return codeDefinitionCheck;
+		}
 	}
 
 	protected String buildRowWithIndex(final int index) {

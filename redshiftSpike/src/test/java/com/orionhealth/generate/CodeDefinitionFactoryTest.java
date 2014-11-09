@@ -37,5 +37,14 @@ public class CodeDefinitionFactoryTest extends TestCase {
 		final String row = codeDefinitionFactory.buildRowWithIndex(2);
 		Assert.assertEquals("BMC,ORION,Biomechanics,Biomechanics,0,false,false,Cukes BMC description", row);
 	}
+	
+	@Test
+	public void testFactory() {
+		final CodeDefinitionFactory codeDefinitionFactory = new CodeDefinitionFactory();
+		final CodeDefinition codeDefinition =  codeDefinitionFactory.buildRow();
+		Assert.assertNotNull(codeDefinition.getPrimaryKey());
+		Assert.assertNotNull(codeDefinition.getRow());
+		
+	}
 }
 
