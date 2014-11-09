@@ -28,14 +28,14 @@ public class CodeDefinitionFactoryTest extends TestCase {
 	public void testGenerationOfCodeDef1() {
 		final CodeDefinitionFactory codeDefinitionFactory = new CodeDefinitionFactory();
 		final String row = codeDefinitionFactory.buildRowWithIndex(1);
-		Assert.assertEquals("BMC,ORION,Biomechanics,Biomechanics,0,false,false,Cukes BMC description", row);
+		Assert.assertEquals("BCH,ORION,Biochemistry,Biochemistry,0,false,false,Cukes BCH description", row);
 	}
 
 	@Test
 	public void testGenerationOfCodeDef2() {
 		final CodeDefinitionFactory codeDefinitionFactory = new CodeDefinitionFactory();
 		final String row = codeDefinitionFactory.buildRowWithIndex(2);
-		Assert.assertEquals("AN,ORION,Anatomy,Anatomy,0,false,false,Cukes AN description", row);
+		Assert.assertEquals("BMC,ORION,Biomechanics,Biomechanics,0,false,false,Cukes BMC description", row);
 	}
 }
 
