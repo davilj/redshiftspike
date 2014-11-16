@@ -1,19 +1,10 @@
 package com.orionhealth.model;
 
-public class Provider {
-	Integer id;
-	String row;
+public class Provider extends BaseModel {
 
-	public Provider(Integer id, String row) {
-		this.id = id;
-		this.row = row;
+	public Provider(int primaryKey, String row) {
+		super(primaryKey, row);
+		// TODO Auto-generated constructor stub
 	}
-
-	public Integer getId() {
-		return id;
-	}
-
-	public String getRow() {
-		return row;
-	}
+	
 }	
